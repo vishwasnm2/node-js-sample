@@ -1,5 +1,6 @@
 {
   "name": "node-js-sample",
+  "repository": {"type": "git" , "URL": "git://github.com/vishwasnm2/node-js-sample.git"},
   "version": "0.2.0",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
@@ -12,10 +13,6 @@
   "engines": {
     "node": "4.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
-  },
   "keywords": [
     "node",
     "heroku",
@@ -26,4 +23,7 @@
     "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
   "license": "MIT"
+"publishConfig": {
+    "registry":"https://npm.pkg.github.com/@vishwasnm2"
+  }
 }
