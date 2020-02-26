@@ -1,11 +1,14 @@
 {
   "name": "node-js-sample",
-  "repository": {"type": "git" , "URL": "git://github.com/vishwasnm2/node-js-sample.git"},
   "version": "0.2.2",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwasnm2/node-js-sample.git"
   },
   "dependencies": {
     "express": "^4.13.3"
@@ -19,6 +22,6 @@
   ],
   "license": "MIT",
 "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@vishwasnm2"
+    "registry":"https://npm.pkg.github.com/"
   }
 }
