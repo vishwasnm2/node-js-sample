@@ -1,7 +1,7 @@
 {
   "name": "node-js-sample",
   "repository": {"type": "git" , "URL": "git://github.com/vishwasnm2/node-js-sample.git"},
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
