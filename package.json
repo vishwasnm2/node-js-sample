@@ -1,5 +1,5 @@
 {
-  "name": "node-js-sample",
+  "name": "@vishwasnm2/node-js-sample",
   "version": "0.2.2",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
